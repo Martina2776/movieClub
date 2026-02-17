@@ -1,13 +1,12 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 
-const API_KEY = 'af56a87d'
 const moviesList = ref([])
 
 const fetchMovies = async () => {
   const results = []
   for (const movieId of movies) {
-    const response = await fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&i=${movieId}`)
+    const response = await fetch(`https://www.omdbapi.com/?apikey=af56a87d&i=${movieId}`)
     const data = await response.json()
     if (data.Response === 'True') {
       results.push(data)
