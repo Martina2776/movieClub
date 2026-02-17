@@ -6,7 +6,7 @@ import logoSvg from '../assets/logo.svg'
     <footer>
         <div>
             <h1>moVie</h1>
-        <ul>
+        <ul class="nav">
             <nav>
                 <li><RouterLink to="/">Home</RouterLink></li>
                 <li><RouterLink to="/drama">Drama</RouterLink></li>
