@@ -84,27 +84,4 @@ nav a:hover {
     display: inline-block
 }
 
-#home-view-movie-list {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    align-items: center;
-    justify-items: center
-}
 
-#home-view-movie-list {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    align-items: center;
-    justify-items: center;
-    width: 80%;
-    margin: 40px auto;
-    gap: 40px
-}
-
-.home-view-movie-data p {
-    text-align: center
-}
-
-.home-view-movie-data img {
-    max-height: 425px
-}
